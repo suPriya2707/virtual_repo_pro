@@ -1,62 +1,39 @@
 # virtual_repo_pro
 LockedMe - Virtual Key for Repositories
-
 Company Lockers Pvt. Ltd. hired you as a Full Stack Developer. They aim to digitize their products and chose LockedMe.com as their first project to start with.  
 
-To track below deliverables - 
+//Company Lockers Pvt. Ltd. hired you as a Full Stack Developer. They aim to digitize their products and chose LockedMe.com as their first project to start with.  
+Simple Java Console based program to allows user to input menu options for 
 
-    Specification document - Product’s capabilities, appearance, and user interactions
+* Displaying File/Folder structure. 
+* Search for File/Folder recursively.
+* Add/Delete File/Folder recursively.
 
-    Java concepts being used in the project 
+## View project locally
 
-    Data Structures where sorting and searching techniques are used. 
+To try out the project in your local machine:
+* clone this repository using `git clone `
+* Open the folder from Eclipse/IntelliJ 
+@@ -30,22 +38,10 @@ Code designed to display the welcome screen. It displays:
+* The details of the user interface such as options displaying the user interaction information 
+* Features to accept the user input to select one of the options listed 
+* The first option returns the current file names in ascending order. The root directory can be either empty or contain few files or folders in it.
 
-    Generic features and operations available: 
+* The second option returns the details of the user interface such as options displaying the following:
 
-      1)  Retrieving the file names in an ascending order
+//** Add a file to the existing directory list
+    * Add a file to the existing directory list
 
-      2)  Business-level operations:
+//** Delete a user specified file from the existing directory list
+    * Delete a user specified file from the existing directory list
 
-            Option to add a user specified file to the application
-
-            Option to delete a user specified file from the application
-
-            Option to search a user specified file from the application
-
-            Navigation option to close the current execution context and return to the main context
-
-      3)  Option to close the application
+//** Search a user specified file from the main directory
+    * Search a user specified file from the main directory
 
 
-Code designed to display the welcome screen. It displays:
+//** Option to navigate back to the main context
+    * Option to navigate back to the main context
 
-        Application name and the developer details 
+* There is a third option to close the application.
 
-        The details of the user interface such as options displaying the user interaction information 
-
-        Features to accept the user input to select one of the options listed 
-
-     The first option returns the current file names in ascending order. The root directory can be either empty or contain few files or folders in it.
-
-     The second option returns the details of the user interface such as options displaying the following:
-
-        Add a file to the existing directory list
-
-        Delete a user specified file from the existing directory list
-
-            case sensitivity is essential on the file name in order to ensure that the right file is deleted from the directory list
-            Return a message if FNF (File not found)
-
-        Search a user specified file from the main directory
-
-            case sensitivity on the file name to retrieve the correct file
-
-            Displays the result upon successful operation
-
-            Displays the result upon unsuccessful operation
-
-        Option to navigate back to the main context
-
-    There is a third option to close the application.
-
-    Implemented the concepts such as exceptions, collections, and sorting techniques for source code optimization and increased performance 
+Implemented the concepts such as exceptions, collections, and sorting techniques for source code optimization and increased performance
