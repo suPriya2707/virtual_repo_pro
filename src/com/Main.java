@@ -1,29 +1,34 @@
 package com;
+
 import java.util.Scanner;
+//import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args){
 		// Create "main" folder if not present in current folder structure
 				Fileop.createMainFolderIfNotPresent("main");
 
-		MenuOP.printWelcome("VirtualPro", "Supriya");
+		MenuOP.printWelcome("VirtuaPro", "Supriya");
 		handleWelcomeScreenInput();
+		//handleWelcomeScreenInput();
+		HandleOperation.handleWelcomeScreenInput();
 	}
 	private static void handleWelcomeScreenInput() {
+
+/*	private static void handleWelcomeScreenInput() {
 		boolean running = true;
 		Scanner sc = new Scanner(System.in);
 		do {
 			try {
-				MenuOP.displayMenu();
+				MenuOptions.displayMenu();
 				int input = sc.nextInt();
-
 				switch (input) {
 				case 1:
-					//FileOperations.displayAllFiles("./main");
-					Fileop.displayAllFiles("main");
+					FileOperations.displayAllFiles("main");
 					break;
 				case 2:
-					MenuOP.handleFileMenuOptions();
+					MenuOptions.handleFileMenuOptions();
 					break;
 				case 3:
 					System.out.println("Program exited successfully.");
@@ -40,6 +45,6 @@ public class Main {
 			} 
 		} while (running == true);
 	}
-}
+	}   */
 
 } 
