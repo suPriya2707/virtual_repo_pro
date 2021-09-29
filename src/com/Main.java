@@ -1,11 +1,12 @@
-package com.project1;
+package com;
 import java.util.Scanner;
-public class ProjectMain {
+public class Main {
 
 	public static void main(String[] args){
+		// Create "main" folder if not present in current folder structure
+				Fileop.createMainFolderIfNotPresent("main");
 
-		MenuOptions.printWelcomeScreen("VirtualPro", "Supriya");
-		MenuOptions.printWelcome("VirtualPro", "Supriya");
+		MenuOP.printWelcome("VirtualPro", "Supriya");
 		handleWelcomeScreenInput();
 	}
 	private static void handleWelcomeScreenInput() {
@@ -15,6 +16,7 @@ public class ProjectMain {
 			try {
 				MenuOP.displayMenu();
 				int input = sc.nextInt();
+
 				switch (input) {
 				case 1:
 					//FileOperations.displayAllFiles("./main");
@@ -39,3 +41,5 @@ public class ProjectMain {
 		} while (running == true);
 	}
 }
+
+} 
